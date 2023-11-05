@@ -200,8 +200,8 @@
     (path "/a77ac6a6-e198-49fd-9a70-e3e969361056/48cf3590-6186-4189-9cbe-d6cf6c6961f2"
       (reference "#PWR0107") (unit 1) (value "+5V") (footprint "")
     )
-    (path "/6c005175-496f-44ad-b2cf-d5e7e399ea2b/e6fc8bdb-86ff-4be3-83f5-149b2509ec0c"
-      (reference "#PWR0108") (unit 1) (value "+5V") (footprint "")
+    (path "/6c005175-496f-44ad-b2cf-d5e7e399ea2b/b3afd9bc-fa3d-4de5-8113-cded328f38a7"
+      (reference "#PWR0108") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/6c005175-496f-44ad-b2cf-d5e7e399ea2b/61af3b9a-4cb2-4c03-8e66-4fae8302eaf1"
       (reference "#PWR0109") (unit 1) (value "+3V3") (footprint "")
@@ -269,6 +269,21 @@
     (path "/e773fbbd-d431-48f5-a02f-c4fe09e291cf/bce26551-ec7b-45dd-8a97-9e8bc64191d1"
       (reference "#PWR0130") (unit 1) (value "GND") (footprint "")
     )
+    (path "/6c005175-496f-44ad-b2cf-d5e7e399ea2b/e763aba0-d003-4117-bbcc-9fd959706675"
+      (reference "#PWR0131") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/6c005175-496f-44ad-b2cf-d5e7e399ea2b/6c94fd34-cb37-4a18-893e-e918e9233997"
+      (reference "#PWR0132") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/6c005175-496f-44ad-b2cf-d5e7e399ea2b/eb76c32a-dc17-43c7-b366-a1f4edda8de1"
+      (reference "#PWR0133") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/6c005175-496f-44ad-b2cf-d5e7e399ea2b/34f7b565-fbe5-483d-99bd-c260b43b92de"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/6c005175-496f-44ad-b2cf-d5e7e399ea2b/fef23240-86ca-436f-bc35-181e06b4a214"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
     (path "/a77ac6a6-e198-49fd-9a70-e3e969361056/d4c0c63a-d8d0-4680-8c1a-48edb2cbb01c"
       (reference "C100") (unit 1) (value "0.33u") (footprint "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm")
     )
@@ -296,8 +311,8 @@
     (path "/a77ac6a6-e198-49fd-9a70-e3e969361056/fe9d7f9b-3542-4053-96ca-677bc0d39b06"
       (reference "J100") (unit 1) (value "VCC SUPPLY") (footprint "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal")
     )
-    (path "/6c005175-496f-44ad-b2cf-d5e7e399ea2b/63a620d6-8eee-4f80-9eeb-88510dca877c"
-      (reference "J200") (unit 1) (value "LORA") (footprint "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_5-G-5,08_1x05_P5.08mm_Horizontal")
+    (path "/6c005175-496f-44ad-b2cf-d5e7e399ea2b/935f2a81-768d-4e3f-b9fa-570173c3804a"
+      (reference "J200") (unit 1) (value "LORA") (footprint "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal")
     )
     (path "/6c005175-496f-44ad-b2cf-d5e7e399ea2b/14e2e1fb-a873-4d9f-9add-a035bfd01ca4"
       (reference "J201") (unit 1) (value "GPS") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Horizontal")
@@ -308,14 +323,26 @@
     (path "/6c005175-496f-44ad-b2cf-d5e7e399ea2b/7af93d5c-b81f-42ba-aa83-a052af5cc577"
       (reference "J203") (unit 1) (value "MICROSD") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Horizontal")
     )
+    (path "/6c005175-496f-44ad-b2cf-d5e7e399ea2b/5be142a0-42ea-4306-84cc-9ed506bbcd45"
+      (reference "J204") (unit 1) (value "ATMEGA") (footprint "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal")
+    )
+    (path "/6c005175-496f-44ad-b2cf-d5e7e399ea2b/ef9a7402-8611-44b8-8715-567623469a63"
+      (reference "J205") (unit 1) (value "LOGIC ANALIZER") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
     (path "/e773fbbd-d431-48f5-a02f-c4fe09e291cf/68065e60-9a8a-4bbc-a8ae-76b2f31419f9"
       (reference "J300") (unit 1) (value "BATERIA MOTOR") (footprint "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal")
     )
     (path "/e773fbbd-d431-48f5-a02f-c4fe09e291cf/f56ecdaf-9467-4001-a6ca-f1330f0a7400"
       (reference "J301") (unit 1) (value "CORRIENTE_ADC") (footprint "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal")
     )
-    (path "/6c005175-496f-44ad-b2cf-d5e7e399ea2b/839608a3-f525-424a-81ea-eb66063cda08"
+    (path "/6c005175-496f-44ad-b2cf-d5e7e399ea2b/fc642d80-3c17-423f-bfe6-c7a25ecf9a38"
       (reference "R200") (unit 1) (value "4k7") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal")
+    )
+    (path "/6c005175-496f-44ad-b2cf-d5e7e399ea2b/e0e47116-23eb-4106-817c-8e4ee28f3a72"
+      (reference "R201") (unit 1) (value "4k7") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal")
+    )
+    (path "/6c005175-496f-44ad-b2cf-d5e7e399ea2b/839608a3-f525-424a-81ea-eb66063cda08"
+      (reference "R202") (unit 1) (value "4k7") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal")
     )
     (path "/e773fbbd-d431-48f5-a02f-c4fe09e291cf/71fb3fb2-8cb6-416e-b5a4-7299e4f21548"
       (reference "R300") (unit 1) (value "R") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal")
